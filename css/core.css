@@ -1,0 +1,100 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  background-color: white;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80em;
+  border: 5px double black;
+}
+.main .sky {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main .sky .blank {
+  width: 2em;
+  height: 2em;
+}
+.main .sky .cloud2 {
+  background-color: white;
+  width: 4em;
+  height: 2em;
+  border-radius: 50%;
+}
+.main .sky .cloud {
+  background-color: lightgrey;
+  width: 4em;
+  height: 2em;
+  border-radius: 50%;
+}
+.main .mountain {
+  background-color: darkgreen;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main .mountain .blank {
+  width: 2em;
+  height: 2em;
+}
+.main .mountain .sky {
+  background-color: skyblue;
+  width: 2em;
+  height: 2em;
+}
+.main .mountain .flower1 {
+  background-color: darkmagenta;
+  width: 0.5em;
+  height: 0.5em;
+}
+.main .mountain .flower2 {
+  background-color: pink;
+  width: 0.5em;
+  height: 0.5em;
+}
+.main .mountain .sky2 {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.main .mountain .sky2 .blank {
+  background-color: darkgreen;
+  width: 2em;
+  height: 2em;
+}
+.main .mountain .sky2 .sky {
+  background-color: skyblue;
+  width: 2em;
+  height: 2em;
+}
+.main .mountain .sky2 .sun {
+  background-color: yellow;
+  width: 7em;
+  height: 6em;
+  border-radius: 100%;
+}
+.main .mountain .sky2 .cloud {
+  background-color: white;
+  width: 4em;
+  height: 2em;
+  border-radius: 50%;
+}
+.main .mountain .sky2 .cloud2 {
+  background-color: lightgrey;
+  width: 4em;
+  height: 2em;
+  border-radius: 50%;
+}
